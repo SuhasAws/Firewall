@@ -442,4 +442,3 @@ variable "PTS-VNGC-shared_key" {
     type = string
     description = "Point to site Virtual network gateway shared key"
 }
-
