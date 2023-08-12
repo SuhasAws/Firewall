@@ -1,6 +1,6 @@
 variable "resource-group2-name" {}
 variable "vnet2-name" {}
-variable "var.location2" {}
+variable "location2" {}
 variable "Nat-SB-name" {}
 variable "Nat-SB-address_prefixes" {}
 variable "NAT-pip-name" {}
