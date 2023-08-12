@@ -15,5 +15,3 @@ variable "TF-Profile-timeout_in_seconds" {}
 variable "TF-Profile-tolerated_number_of_failures" {}
 variable "TF-endpoint-name" {}
 variable "TF-endpoint-weight" {}
-
-
