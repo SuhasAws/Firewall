@@ -63,7 +63,7 @@ location2 = "central US"
 vnet2-name = "Vnet2"
 vnet2-address-space = ["11.0.0.0/16"]
 vnet2-subnet2-name = "VnetSubnet2"
-vnet2-subnet2-address_prefixes = ["11.0..0/24"]
+vnet2-subnet2-address_prefixes = ["11.0.0.0/24"]
 
 Nat-SB-name = "NAT-SUBNET"
 Nat-SB-address_prefixes = ["11.0.1.0/24"]
