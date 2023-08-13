@@ -83,6 +83,38 @@ module "APGWSUBNT" {
     APGW-BPRR-name = var.APGW-BPRR-name
     APGW-BPRR-rule_type = var.APGW-BPRR-rule_type
     APGW-BPRR-priority = var.APGW-BPRR-priority
+
+    firewall_policy_name = var.firewall_policy_name 
+    firewall_policy_rule_collection_group_name = var.firewall_policy_rule_collection_group_name
+    firewall_policy_rule_collection_group_priority = var.firewall_policy_rule_collection_group_priority
+    app_rule_collection_name = var.app_rule_collection_name
+    app_rule_collection_priority = var.app_rule_collection_priority
+    app_rule_collection_action = var.app_rule_collection_action
+    app_rule_collection_rule1 = var.app_rule_collection_rule1
+    app_rule_collection_rule1_protocol1 = var.app_rule_collection_rule1_protocol1
+    app_rule_collection_rule1_port1 = var.app_rule_collection_rule1_port1
+    app_rule_collection_rule1_protocol2 = var.app_rule_collection_rule1_protocol2
+    app_rule_collection_rule1_port2 = var.app_rule_collection_rule1_port2
+    app_rule_collection_source_addresses = var.app_rule_collection_source_addresses
+    app_rule_collection_destination_fqdns = var.app_rule_collection_destination_fqdns
+    network_rule_collection_name = var.network_rule_collection_name
+    network_rule_collection_priority = var.network_rule_collection_priority
+    network_rule_collection_action = var.network_rule_collection_action
+    network_rule_collection_rule1_name = var.network_rule_collection_rule1_name
+    network_rule_collection_rule1_protocols = var.network_rule_collection_rule1_protocols
+    network_rule_collection_rule1_source_addresses = var.network_rule_collection_rule1_source_addresses
+    network_rule_collection_rule1_destination_addresses = var.network_rule_collection_rule1_destination_addresses
+    network_rule_collection_rule1_destination_ports = var.network_rule_collection_rule1_destination_ports
+    nat_rule_collection_rule_name = var.nat_rule_collection_rule_name
+    nat_rule_collection_rule_priority = var.nat_rule_collection_rule_priority
+    nat_rule_collection_rule_action = var.nat_rule_collection_rule_action
+    nat_rule_collection_rule1_name = var.nat_rule_collection_rule1_name
+    nat_rule_collection_rule1_protocols = var.nat_rule_collection_rule1_protocols
+    nat_rule_collection_rule1_source_addresses = var.nat_rule_collection_rule1_source_addresses
+    nat_rule_collection_rule1_destination_address = var.nat_rule_collection_rule1_destination_address
+    nat_rule_collection_rule1_destination_ports = var.nat_rule_collection_rule1_destination_ports
+    nat_rule_collection_rule1_translated_address = var.nat_rule_collection_rule1_translated_address
+    nat_rule_collection_rule1_translated_port = var.nat_rule_collection_rule1_translated_port
 }
 
 module "BSTN-SB1" {
